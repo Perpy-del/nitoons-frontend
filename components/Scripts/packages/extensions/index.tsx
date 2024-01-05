@@ -42,7 +42,6 @@ import Dual from './screenplay/dual'
 import UpdatedImage from './update-image'
 import CustomKeymap from './custom-keymap'
 import DragAndDrop from './drag-and-drop'
-import SceneSuggestions from './scene-suggestions'
 import FontSize from './font-size'
 import LineSpacing from './line-spacing'
 import Doc from '@tiptap/extension-document';
@@ -150,7 +149,6 @@ export const defaultExtensions = [
     openOnClick: false,
   }),
   SlashCommand,
-  // SceneSuggestions,
   Indent,
   FontSize,
   LineSpacing,
