@@ -1,0 +1,70 @@
+.button {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #fcf0f7;
+    transition: 200ms;
+  }
+
+  .headingButton {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px
+  }
+  
+  .headingButton:hover {
+    background-color: rgb(252, 240, 247);
+    transition: 200ms;
+  }
+
+  .collapseButton {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-self: flex-end;
+    padding: 5px
+  }
+  
+  .collapseButton:hover {
+    background-color: rgb(252, 240, 247);
+    transition: "all 500ms ease";
+  }
+
+  /* Add this to your stylesheet, or create a new one if needed */
+  .tooltip {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 80px;
+    font-size: 11px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 4px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    top: 98%;
+    margin: 0 auto;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }

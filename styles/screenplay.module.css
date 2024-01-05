@@ -1,0 +1,29 @@
+.sceneBody {
+    /* background: #FFF; */
+    background: blue;
+    width:102px;
+    height: 173px;
+    display:flex;
+    flex-shrink:0px;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    border-radius:4px;
+    position: relative;
+    top: 12rem;
+    left: 4rem;
+    box-shadow: 0px 2px 14px 0px rgba(0, 0, 0, 0.16)
+}
+
+.scene-button-class {
+    width: 100px;
+    height: 40px;
+    margin-top: 10px;
+    background: #FFF;
+    border: none;
+    transition: background 0.3s ease;
+}
+
+.scene-button-class:hover {
+    background: #EFEFEF;
+}

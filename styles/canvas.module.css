@@ -1,0 +1,137 @@
+.taskList {
+  text-align: inherit;
+  line-height: inherit;
+  margin: inherit;
+  padding: inherit;
+  border: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  color: inherit;
+  background-color: inherit;
+  text-decoration: inherit;
+  list-style: inherit;
+  white-space: inherit;
+  padding-left: 0.5rem;
+}
+
+.taskItem {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.horizontalRule {
+  margin-bottom: 1.5rem;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #ccc;
+  margin-top: 1rem;
+}
+
+.taskItem:hover {
+  color: #666666;
+}
+
+.tiptapLink {
+  color: #999999;
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  transition-property: color;
+  transition-duration: 0.3s;
+}
+
+.editorProps {
+  line-height: 1.625rem;
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-size: 1.125rem;
+  margin: 2rem;
+  outline: none;
+}
+
+/* .ProseMirror p.is-editorEmpty:first-child::before {
+    content: attr(data-placeholder);
+    float: left;
+    color: rgba(74, 74, 74, 0.40);
+    pointer-events: none;
+    height: 0;
+  } */
+
+.editorEmpty:first-child::before {
+  content: attr(data-placeholder);
+  float: left;
+  color: rgba(74, 74, 74, 0.4);
+  font-size: 16px;
+  font-style: normal;
+  font-family: 'Clash Grotesk';
+  font-weight: 400;
+  line-height: normal;
+  pointer-events: none;
+  height: 0;
+}
+
+.imagePlaceholder {
+  opacity: 40;
+  border-radius: 15px;
+  border: '1px solid stone';
+}
+
+.bullerList {
+  list-style-type: disc;
+  list-style-position: outside;
+  line-height: 1.75;
+  margin-top: 0.5rem;
+}
+
+.orderedList {
+  line-height: 1.75;
+  margin-top: 0.5rem;
+  list-style-type: decimal;
+  list-style-position: outside;
+}
+
+.listItem {
+  line-height: normal;
+  margin-bottom: 0.5rem;
+}
+
+.blockquote {
+  border-left-width: 1rem;
+  border-left-color: #a3a3a3;
+}
+
+.codeBlock {
+  border-radius: 0.125rem;
+  background-color: #f7f7f7;
+  font-family: monospace;
+  font-weight: 500;
+  color: #4d4d4d;
+  padding: 1.25rem;
+}
+
+.code {
+  color: #333333;
+  border-radius: 0.375rem;
+  background-color: #e5e5e5;
+  padding-left: 0.375rem;
+  padding-right: 0.375rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  font-family: monospace;
+  font-weight: 500;
+}
+
+.updateImage {
+  border-radius: 0.75rem;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #e5e5e5;
+}
+
+

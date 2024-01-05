@@ -1,0 +1,36 @@
+.circular_progress {
+    position: absolute;
+    bottom: 300px;
+    right: 600px;
+}
+
+@media (max-width: 1024px) {
+    .circular_progress {
+        right: 400px;
+    }
+}
+
+@media (max-width: 768px) {
+    .circular_progress {
+        bottom: 200px;
+        right: 350px;
+    }
+}
+
+@media (max-width: 425px) {
+    .circular_progress {
+        right: 200px;
+    }
+}
+
+@media (max-width: 375px) {
+    .circular_progress {
+        right: 150px;
+    }
+}
+
+@media (max-width: 320px) {
+    .circular_progress {
+        right: 130px;
+    }
+}

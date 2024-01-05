@@ -1,0 +1,107 @@
+.searchBar {
+  display: flex;
+  align-items: center;
+  width: 467px;
+  height: 42px;
+}
+
+.searchInput {
+  width: 100%;
+  height: inherit;
+  padding: 15px;
+  background: #eeeef2;
+  border: 2px solid #eeeef2;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  outline: none;
+}
+
+.searchInput[type='text'] {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Clash Grotesk';
+  color: #353538;
+}
+
+.searchInput[type='text']::placeholder {
+  color: #9B9B9B
+}
+
+.searchButton {
+  width: 49px;
+  height: 42px;
+  background: #d90368;
+  color: white;
+  border: none;
+  padding: 9px 15px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  cursor: pointer;
+}
+
+@media (max-width: 958px) {
+  .searchBar {
+    width: 384px;
+    height: 42px;
+  }
+}
+
+@media (max-width: 410px) {
+  .searchBar {
+    width: 374px;
+  }
+}
+
+@media (max-width: 400px) {
+  .searchBar {
+    width: 354px;
+  }
+}
+
+@media (max-width: 380px) {
+  .searchBar {
+    width: 334px;
+  }
+}
+
+@media (max-width: 360px) {
+  .searchBar {
+    width: 304px;
+  }
+}
+
+@media (max-width: 335px) {
+  .searchBar {
+    width: 290px;
+  }
+}
+
+@media (max-width: 320px) {
+  .searchBar {
+    width: 280px;
+  }
+}
+
+@media (max-width: 305px) {
+  .searchBar {
+    width: 260px;
+  }
+}
+
+@media (max-width: 285px) {
+  .searchBar {
+    width: 230px;
+  }
+}
+
+@media (max-width: 255px) {
+  .searchBar {
+    width: 200px;
+  }
+}
+
+@media (max-width: 224px) {
+  .searchBar {
+    width: 170px;
+  }
+}
