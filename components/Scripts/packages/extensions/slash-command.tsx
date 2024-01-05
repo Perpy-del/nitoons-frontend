@@ -112,14 +112,14 @@ const getSuggestionItems = ({ query }: { query: string }) => {
       description: 'When and where.',
       searchTerms: ['scene'],
       icon: <FilmCutIcon />,
-      command: ({ editor, range }: CommandProps) => {
-        editor
-          .chain()
-          .focus()
-          .deleteRange(range)
-          .scene().toggleBold()
-          .run();
-      },
+      // command: ({ editor, range }: CommandProps) => {
+      //   editor
+      //     .chain()
+      //     .focus()
+      //     .deleteRange(range)
+      //     .scene().toggleBold()
+      //     .run();
+      // },
     },
     {
       title: 'Action',
@@ -127,14 +127,14 @@ const getSuggestionItems = ({ query }: { query: string }) => {
       description: 'Action scene.',
       searchTerms: ['ac', 'action'],
       icon: <ActionIcon />,
-      command: ({ editor, range }: CommandProps) => {
-        editor
-          .chain()
-          .focus()
-          .deleteRange(range)
-          .scene()
-          .run();
-      },
+    //   command: ({ editor, range }: CommandProps) => {
+    //     editor
+    //       .chain()
+    //       .focus()
+    //       .deleteRange(range)
+    //       .scene()
+    //       .run();
+    //   },
     },
     {
       title: 'Character',
